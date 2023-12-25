@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav ul li {
+            margin: 10px;
+            padding-top: 2px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/img/logo.png" alt="Logo" style="max-width: 100%;">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/aboutUs">About Us</a></li>
+                <li><a href="/product">Product</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{{body}}}
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Product. New product.</p>
+    </footer>
+</body>
+</html>
